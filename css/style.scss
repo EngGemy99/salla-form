@@ -1,0 +1,195 @@
+//! Start Global Style
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Cairo", sans-serif;
+}
+body {
+    direction: rtl;
+}
+.hide {
+    display: none;
+}
+.error {
+    font-size: 10px;
+    color: rgb(222, 9, 9);
+}
+.redBorder {
+    border: 1px solid red !important;
+}
+//! End Global Style
+
+.logo {
+    position: relative;
+    height: 110px;
+    img {
+        width: 150px;
+        position: absolute;
+        top: 15px;
+        right: 1rem;
+    }
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        @media (max-width: "900px") {
+            width: 80%;
+        }
+        #headerForm {
+            text-align: center;
+            color: #444;
+            @media (min-width: "900px") {
+                display: none;
+            }
+            p {
+                display: none;
+            }
+        }
+        .left-content,
+        .right-content {
+            flex: 1;
+            .box {
+                padding: 0 30px;
+            }
+        }
+        .left-content {
+            h2 {
+                text-align: center;
+                margin-bottom: 1rem;
+                color: #444;
+                line-height: 32px;
+            }
+            .switchButtonsControl {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h3:nth-child(1) {
+                    border-radius: 0 8px 8px 0;
+                }
+                h3:nth-child(2) {
+                    border-radius: 8px 0 0 8px;
+                }
+                h3 {
+                    border: 1px solid red solid #76e8cd;
+                    color: #004d5a;
+                    cursor: pointer;
+                    flex: 1 0 0;
+                    font-size: 16px;
+                    padding: 10px 0;
+                    text-align: center;
+                    transition: all 0.7s;
+                    &:hover {
+                        background: #baf3e6;
+                    }
+                }
+                .active {
+                    height: 100%;
+                    background: #baf3e6;
+                }
+            }
+            .forms {
+                margin-top: 2rem;
+                .loginForm,
+                .registerForm {
+                    .control {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 1rem;
+                        label {
+                            color: #444;
+                            display: block;
+                            font-size: 14px;
+                            margin-bottom: 8px;
+                        }
+                        input {
+                            background: #fff;
+                            border: 1px solid #eee;
+                            border-radius: 4px;
+                            line-height: 1;
+                            min-height: 39px;
+                            padding: 4px 15px;
+                            transition: 0.3s;
+                            width: 100%;
+                            outline: none;
+                            &:focus {
+                                border: 1px solid #004d5a;
+                            }
+                        }
+                    }
+                    .passwordControl {
+                        position: relative;
+                        i {
+                            position: absolute;
+                            left: 10px;
+                            color: #999;
+                            font-size: 16px;
+                            cursor: pointer;
+                            top: 46px;
+                        }
+                    }
+                    .rememberMy {
+                        display: flex;
+                        justify-content: space-between;
+
+                        a,
+                        label {
+                            text-decoration: none;
+                            color: #4a4a4a;
+                        }
+                    }
+                    .loginButton,
+                    .registerButton {
+                        margin-top: 2rem;
+                        button {
+                            font-weight: 500;
+                            background: #baf3e6;
+                            border-radius: 4px;
+                            color: #004d5a;
+                            font-size: 14px;
+                            text-align: center;
+                            transition: 0.3s;
+                            display: block;
+                            width: 100%;
+                            height: 40px;
+                            outline: none;
+                            border: 0;
+                            cursor: pointer;
+                            font-size: 18px;
+                            border-radius: 8px;
+                            &:hover {
+                                background-color: #8dcdbf;
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 10px;
+                        text-align: center;
+                        color: #44444487;
+                    }
+                }
+            }
+        }
+
+        .right-content {
+            .box {
+                text-align: center;
+                .headerForm {
+                    color: #444;
+                }
+            }
+            @media (max-width: "900px") {
+                display: none;
+            }
+        }
+    }
+}
