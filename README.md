@@ -9,7 +9,8 @@ Salla Form it is one page have login form and register form responsive with all 
 -CSS
 -JS
 
-#Setup
+# Setup
+
 download file and open it by vsc and open with live server
 
 
