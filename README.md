@@ -18,5 +18,6 @@ A brief description of what this project does and who it's for
 
 
 ## Screenshots
-
-![App Screenshot](https://ibb.co/PgR1Nks)
+<a href="https://www.linkedin.com/in/ahmed-gamal-43b76b205/" target="_blank">
+<img src="https://img.shields.io/badge/-Ahmed%20Gamal-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+</a>
