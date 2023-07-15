@@ -19,5 +19,5 @@ A brief description of what this project does and who it's for
 
 ## Screenshots
 <a href="https://www.linkedin.com/in/ahmed-gamal-43b76b205/" target="_blank">
-<img src="https://images.pexels.com/photos/17445669/pexels-photo-17445669/free-photo-of-city-landscape-fashion-man.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"/>
+<img src="https://imgtr.ee/images/2023/07/15/a71cd12df8069a55040739a4f117159e.png" alt="a71cd12df8069a55040739a4f117159e.png" border="0" />
 </a>
